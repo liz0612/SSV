@@ -1,0 +1,16 @@
+{
+    "name": "ssv",
+    "version": "1.0.0",
+    "description": "Speedy Solutions Vehicles website",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "sass": "^1.68.0",
+        "vite": "^5.0.0",
+        "vite-plugin-minify": "^2.1.0",
+        "vite-plugin-webfont-dl": "^3.10.4"
+    }
+}
