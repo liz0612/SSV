@@ -1,0 +1,22 @@
+// Bootstrap Overrides ---
+
+// Brand Colors ----------
+$primary: #e81512;          // Speedy red
+$secondary: #ffffff;        // White
+$info: #f9d949;             // Optional accent
+$danger: #9E1A1A;           // Deep red fallback
+$success: #105B38;          // Optional green for success messages
+$dark: #1c1c1c;             // Dark/black for text/background
+$light: #fefefe;            // Off-white/light background
+
+// Typography ----------
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+// Background colors for alternating sections
+$even-bg: #f8f9fa; // Light gray for even sections
+$odd-bg: #ffffff;  // White for odd sections
+
+// Utilities ----------
+$box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+$text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+$transition: all ease-in-out 0.2s;

@@ -2,6 +2,15 @@
 <html lang="en-US">
 
 <head>
+    <!-- Favicons and App Icons -->
+     <link rel="icon" type="image/png" href="/media/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/media/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/media/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Speedy Solutions Vehicles" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="/media/favicon/site.webmanifest" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -28,10 +37,10 @@
   </script>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="./src/css/preloader.min.css" />
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css" />
+  <link rel="stylesheet" href="./src/css/bs-compiled.css" />
 </head>
 
 <body itemtype="https://schema.org/WebPage" itemscope="itemscope" class="SSV">
@@ -56,14 +65,16 @@
   <header id="header" class="site-header">
     <div class="container">
       <div class="nav-flex">
-        <div class="title-area">
-          <div class="site-title" itemprop="headline">
-            <a href="#home">Best Mechanic Shop Lehigh Acres, Florida</a>
+        <section class="title-wrap">
+          <div class="title-area">
+            <div class="site-title">
+              <a href="#home">Best Mechanic Shop Lehigh Acres, Florida</a>
+            </div>
+            <div class="site-description">
+              The Best Mechanic Shop for All Your Vehicle Needs
+            </div>
           </div>
-          <div class="site-description" itemprop="description">
-            The Best Mechanic Shop for All Your Vehicle Needs
-          </div>
-        </div>
+        </section>
 
         <!-- Navigation -->
         <button class="menu-toggle icon-menu bx bx-menu" aria-label="Navigation Menu Button" aria-expanded="false" aria-pressed="false"></button>
@@ -84,32 +95,36 @@
     <div id="primary" class="main">
 
       <!-- Hero Section -->
-      <section id="home" class="hero section">
-        <div class="background-overlay"></div>
-        <div class="container">
-          <div class="row g-0">
-            <div class="col-lg-6 d-none d-lg-block"></div>
-            <div class="col-lg-6 text-center text-lg-start">
-              <div class="heading-container text-primary">
-                <h1 class="fw-bold text-light">Discover the best Mechanic Shop in Lehigh Acres, Florida.</h1>
-                <p class="text-light fw-medium">
-                  Our expert Mechanics provide top-notch solutions for all your automotive needs.
-                  From tire changes to complete auto repairs, trust us for reliable and certified services.
-                </p>
-              </div>
-              <div class="home-phone-container">
-                <a class="home-phone fs-5 text-end fw-medium text-light" href="tel:+17542458155">
-                  <i class='p-3 me-2 btn btn-lg btn-outline-light rounded-pill bx bxs-phone-call'></i>
-                  +1 (754) 245-8155
-                </a>
-              </div>
-              <div class="my-4">
-                <a class="btn rounded-pill btn-secondary fw-bold" href="#contactus"><i class='bx bxs-contact'></i> Contact Us!</a>
-              </div>
-            </div>
+<section id="home" class="hero section">
+    <div class="background-overlay"></div>
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-lg-6 d-none d-lg-block"></div>
+        <div class="col-lg-6 text-center text-lg-start">
+          <div class="heading-container">
+            <h1 class="fw-bold text-brand-dark">
+              Discover the best Mechanic Shop in Lehigh Acres, Florida.
+            </h1>
+            <p class="fw-medium text-brand-light">
+              Our expert Mechanics provide top-notch solutions for all your automotive needs.
+              From tire changes to complete auto repairs, trust us for reliable and certified services.
+            </p>
           </div>
+  
+          <div class="d-flex flex-column flex-md-row gap-3 align-items-center mt-4">
+            <a class="fs-5 fw-medium text-light d-flex align-items-center" href="tel:+17542458155">
+              <i class='bx bxs-phone-call me-2 fs-4 text-light'></i>
+              +1 (754) 245-8155
+            </a>
+            <a class="btn rounded-pill btn-secondary fw-bold" href="#contactus">
+              <i class='bx bxs-contact'></i> Contact Us!
+            </a>
+          </div>
+  
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
       <!-- About Section -->
       <section id="about" class="about section">

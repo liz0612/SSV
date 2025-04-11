@@ -1,0 +1,29 @@
+@use "./variables" as v;
+
+.hero {
+  padding: calc(2rem + 66px) 0 2rem;
+  background: linear-gradient(135deg, #1c1c1c, #e81512); 
+  min-height: 100svh;
+  color: white;
+
+  .container * {
+    z-index: 2;
+    position: relative;
+  }
+
+  a.home-phone > i.bx:hover {
+    transform: rotate(30deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .background-overlay {
+    background-color: var(--bs-primary);
+    opacity: 0.5; // Try 0.3 or remove it
+    mix-blend-mode: normal;
+  }
+  .hero.section {
+    background: linear-gradient(135deg, #f8f8f8, #ffffff);
+    padding-top: 8rem; // to avoid header overlap
+    padding-bottom: 4rem;
+  }
+}

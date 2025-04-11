@@ -1,0 +1,13 @@
+@use "sass:color";
+
+@use "./variables" as v;
+@use "./base";
+@use "./hero";
+@use "./components";
+@use "./contactus";
+@use "./whyus";
+
+// After all @use imports, write your styles
+body {
+  font-family: v.$font-family-sans-serif;
+}

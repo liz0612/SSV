@@ -1,0 +1,6 @@
+@use "./variables" as v;
+@use "bootstrap" with (
+  $primary: v.$primary,
+  $secondary: v.$secondary,
+  $font-family-sans-serif: v.$font-family-sans-serif
+);

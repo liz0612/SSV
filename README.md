@@ -28,6 +28,32 @@ SSV/
 
 ### 1. Clone the project
 
-```bash
-git clone https://github.com/yourusername/ssv.git
+
+git clone https://github.com/liz0612/ssv.git
 cd ssv
+npm install
+npm run dev
+npm run build
+🔧 Features
+	•	Preloader with animated gauge
+	•	Hero section with call-to-action
+	•	About section with dynamic services slider
+	•	Responsive design for all screen sizes
+	•	Glide.js carousel for services and testimonials
+	•	SCSS and Bootstrap utility classes
+	•	Google Fonts offline integration
+	•	Production CSS minification and purging
+🔧 Features
+	•	Preloader with animated gauge
+	•	Hero section with call-to-action
+	•	About section with dynamic services slider
+	•	Responsive design for all screen sizes
+	•	Glide.js carousel for services and testimonials
+	•	SCSS and Bootstrap utility classes
+	•	Google Fonts offline integration
+	•	Production CSS minification and purgin
+    🛠 Customize for Your Business
+	•	Change page content in index.html
+	•	Update service content in aboutus.js
+	•	Customize styling in src/scss or style.css
+	•	Replace assets in the /media folder

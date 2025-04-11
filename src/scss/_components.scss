@@ -1,0 +1,72 @@
+@use "./variables" as v;
+@use "sass:color";
+
+// BUTTONS ---------------------------
+.btn {
+  background-color: v.$primary;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: v.$transition;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.3), 1px 1px 2px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    background-color: color.adjust(v.$primary, $lightness: -5%);
+    transform: translateY(0.5px);
+  }
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+}
+
+[class*="btn-"]:not([class*="btn-outline-"]) {
+  border: 0;
+}
+
+[class*="btn-outline-"] {
+  box-shadow: none;
+  border: 2px solid v.$primary;
+  color: v.$primary;
+
+  &:hover {
+    background-color: v.$primary;
+    color: #fff;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.social-button {
+  letter-spacing: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: v.$dark;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: v.$primary;
+    color: #fff;
+    border-color: v.$primary;
+  }
+}
+
+// ✅ TEXT COLOR UTILITIES (available globally now)
+.text-brand {
+  color: #e81512 !important;
+}
+
+.text-brand-light {
+  color: #ffffff !important;
+}
+
+.text-brand-dark {
+  color: #1c1c1c !important;
+}

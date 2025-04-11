@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+*.log
+
+# Vite cache
+.vite/
+.cache/
+
+# Sass cache
+.sass-cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Output CSS if it's built from Sass (optional)
+src/css/bs-compiled.css
